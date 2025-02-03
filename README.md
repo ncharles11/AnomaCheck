@@ -57,6 +57,7 @@ AnomaCheck/
 ```
 git clone https://github.com/ton-utilisateur/AnomaCheck.git
 cd AnomaCheck
+
 ```
 ### 2️⃣ Créer un environnement virtuel et installer les dépendances 
 ```
@@ -65,6 +66,7 @@ source venv/bin/activate # Sur macOS/Linux
 venv\Scripts\activate # Sur Windows
 
 pip install -r requirements.txt
+
 ```
 ### 3️⃣ Configurer les variable d'Environnement
 Créer un fichier *.env* et ajoute : 
@@ -73,15 +75,18 @@ SECRET_KEY=ta_cle_secrete
 DEBUG=True
 ALLOWED_HOSTS=127.0.0.1,localhost
 DATABASE_URL=sqlite:///db.sqlite3
+
 ```
 ### 4️⃣ Appliquer les migrations et créer un superutilisateur
 ```
 python manage.py migrate
 python manage.py createsuperuser
+
 ```
 ### 5️⃣ Lancer le serveur Django
 ```
 python manage.py runserver
+
 ```
 Accède a http://127.0.0.1:8000/ dans ton navigateur 
 
@@ -96,6 +101,7 @@ Pour déployer sur **Railway** ou **Render**
 ```
 pip install gunicorn whitenoise
 git push origin main  # Envoie ton projet sur GitHub
+
 ```
 Puis connecte ton dépot GitHub sur Railway ou Render
 
@@ -162,9 +168,10 @@ AnomaCheck/
 ```
 ## 🛠️ Installation and Configuration
 ### 1️⃣ Clone the repository
-```git
-clone https://github.com/ton-utilisateur/AnomaCheck. git
+```
+git clone https://github.com/ton-utilisateur/AnomaCheck.git
 cd AnomaCheck
+
 ```
 ### 2️⃣ Create a virtual environment and install dependencies 
 ```
@@ -173,11 +180,12 @@ source venv/bin/activate # On macOS/Linux
 venv\Scripts\activate # On Windows
 
 pip install -r requirements.txt
+
 ```
 ### 3️⃣ Configure environment variables
 Create a *. env* and add: 
 ```
-SECRET_KEY=ta_cle_secrete
+SECRET_KEY=your_secret_key
 DEBUG=True
 ALLOWED_HOSTS=127.0.0.1,localhost
 DATABASE_URL=sqlite:///db.sqlite3
@@ -186,10 +194,12 @@ DATABASE_URL=sqlite:///db.sqlite3
 ```
 python manage.py migrate
 python manage. py createsuperuser
+
 ```
 ### 5️⃣ Launch Django server
 ```
 python manage.py runserver
+
 ```
 Access http://127.0.0.1:8000/ in your browser 
 
@@ -204,6 +214,7 @@ To deploy on **Railway** or **Render**
 ```
 pip install gunicorn whitenoise
 git push origin main # Send your project to GitHub
+
 ```
 Then connect your GitHub repository to Railway or Render
 
