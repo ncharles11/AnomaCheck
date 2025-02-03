@@ -9,7 +9,7 @@ AnomaCheck est une applicatiojnweb pour la détection automatique d'anomalies vi
 ✔ Stockage des fichiers et historique utilisateur 🗄️\
 ✔ Interface simple et accessible 🎨
 
-## 📂Structure du Projet
+## 📂 Structure du Projet
 ```
 AnomaCheck/ 
 │── media/                  # Stockage des images uploadées
@@ -86,10 +86,10 @@ python manage.py runserver
 Accède a http://127.0.0.1:8000/ dans ton navigateur 
 
 ## 🎯 Utilisation
-1️⃣ **Uploader des fichiers ZIP** contenant des images normales et anormales.
-2️⃣ **Entraîner le modèle choisi** sur les images uploadées.
-3️⃣ **Tester de nouvelles images** et voir si elles sont normales ou anormales.
-4️⃣ **Accéder aux résultats**
+1️⃣ **Uploader des fichiers ZIP** contenant des images normales et anormales.\
+2️⃣ **Entraîner le modèle choisi** sur les images uploadées.\
+3️⃣ **Tester de nouvelles images** et voir si elles sont normales ou anormales.\
+4️⃣ **Accéder aux résultats**\
 
 ## 🔗 Déploiement en ligne
 Pour déployer sur **Railway** ou **Render**
@@ -100,8 +100,8 @@ git push origin main  # Envoie ton projet sur GitHub
 Puis connecte ton dépot GitHub sur Railway ou Render
 
 ## 🎤 Contact 
-📧 : charles.ndiaye@isen-ouest.yncrea.fr & mouhamed.dieng@isen-ouest.yncrea.fr
-🌐 GitHub : ncharles11 & 
+📧 : charles.ndiaye@isen-ouest.yncrea.fr & mouhamed.dieng@isen-ouest.yncrea.fr \
+🌐 GitHub : ncharles11 & \
 
 ⭐️ N'oublie pas de laisser une étoile sur GitHub si ce projet t'a aidé !😉
 
@@ -193,10 +193,10 @@ python manage.py runserver
 Access http://127.0.0.1:8000/ in your browser 
 
 ## 🎯 Usage
-1️⃣ **Upload ZIP** files containing normal and abnormal images.
-2️⃣ **Train the chosen template** on uploaded images.
-3️⃣ **Test new images** and see if they are normal or abnormal.
-4️⃣ **Access results**
+1️⃣ **Upload ZIP** files containing normal and abnormal images. \
+2️⃣ **Train the chosen template** on uploaded images.\
+3️⃣ **Test new images** and see if they are normal or abnormal. \
+4️⃣ **Access results** \
 
 ## 🔗 Online deployment
 To deploy on **Railway** or **Render**
@@ -207,8 +207,8 @@ git push origin main # Send your project to GitHub
 Then connect your GitHub repository to Railway or Render
 
 ## 🎤 Contact 
-📧 : charles.ndiaye@isen-ouest.yncrea.fr & mouhamed.dieng@isen-ouest.yncrea.fr 🌐
-GitHub: ncharles11 & 
+📧 : charles.ndiaye@isen-ouest.yncrea.fr & mouhamed.dieng@isen-ouest.yncrea.fr \
+🌐 GitHub: ncharles11 & \
 
 ⭐️ Don't forget to leave a star on GitHub if this project helped you! 😉
 
