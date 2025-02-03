@@ -1,5 +1,5 @@
 # AnomaCheck - Détection d'Anomalies Visuelles 🕵️‍♂️🔍 (Version Française)
-AnomaCheck est une applicatiojnweb pour la détection automatique d'anomalies visuelles. Elle permet aux utilisateurs d'**uploader des images**, d'entraîner un modèle IA et de prédire si une image est normale ou anormale \
+AnomaCheck est une application web pour la détection automatique d'anomalies visuelles. Elle permet aux utilisateurs d'**uploader des images**, d'entraîner un modèle IA et de prédire si une image est normale ou anormale \
 🚀 **Démo**:
 
 ## 📌 Fonctionnalités
@@ -101,7 +101,7 @@ Puis connecte ton dépot GitHub sur Railway ou Render
 
 ## 🎤 Contact 
 📧 : charles.ndiaye@isen-ouest.yncrea.fr & mouhamed.dieng@isen-ouest.yncrea.fr \
-🌐 GitHub : ncharles11 & \
+🌐 GitHub : ncharles11 & 
 
 ⭐️ N'oublie pas de laisser une étoile sur GitHub si ce projet t'a aidé !😉
 # 
@@ -117,7 +117,7 @@ AnomaCheck is an applicatiojnweb for the automatic detection of visual anomalies
 ✔ File storage and user history 🗄️\
 ✔ Simple, accessible interface 🎨
 
-## 📂Project structure
+## 📂 Project structure
 ```
 AnomaCheck/ 
 │── media/                  # Storage of uploaded images
@@ -197,7 +197,7 @@ Access http://127.0.0.1:8000/ in your browser
 1️⃣ **Upload ZIP** files containing normal and abnormal images. \
 2️⃣ **Train the chosen template** on uploaded images.\
 3️⃣ **Test new images** and see if they are normal or abnormal. \
-4️⃣ **Access results** \
+4️⃣ **Access results** 
 
 ## 🔗 Online deployment
 To deploy on **Railway** or **Render**
@@ -209,7 +209,7 @@ Then connect your GitHub repository to Railway or Render
 
 ## 🎤 Contact 
 📧 : charles.ndiaye@isen-ouest.yncrea.fr & mouhamed.dieng@isen-ouest.yncrea.fr \
-🌐 GitHub: ncharles11 & \
+🌐 GitHub: ncharles11 & 
 
 ⭐️ Don't forget to leave a star on GitHub if this project helped you! 😉
-
+#
