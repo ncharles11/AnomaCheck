@@ -1,0 +1,85 @@
+/* General Styling */
+body {
+    background-color: #212529; /* Dark background */
+    color: #f8f9fa; /* Light text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #343a40; /* Dark header background */
+    border-bottom: 2px solid #495057; /* Subtle bottom border */
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure the header stays on top */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit the text color */
+}
+
+.logo {
+    width: 50px; /* Logo size */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Space between the logo and the text */
+}
+
+.app-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f8f9fa; /* Light text color */
+}
+
+/* Register Box Styling */
+.register-box {
+    max-width: 500px;
+    margin: 60px auto 0; /* Space below the header */
+    padding: 20px;
+    background-color: #343a40; /* Slightly lighter dark */
+    color: #f8f9fa; /* Light text */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.register-box h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #f8f9fa;
+    margin-bottom: 20px;
+}
+
+.register-box .form-control {
+    background-color: #495057; /* Darker input fields */
+    color: #f8f9fa;
+    border: 1px solid #6c757d;
+    border-radius: 5px;
+}
+
+.register-box .form-control:focus {
+    background-color: #495057;
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+.register-box .btn-primary {
+    background-color: #0d6efd;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.register-box .btn-primary:hover {
+    background-color: #0056b3;
+}
