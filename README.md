@@ -89,7 +89,7 @@ Accède a http://127.0.0.1:8000/ dans ton navigateur
 1️⃣ **Uploader des fichiers ZIP** contenant des images normales et anormales.\
 2️⃣ **Entraîner le modèle choisi** sur les images uploadées.\
 3️⃣ **Tester de nouvelles images** et voir si elles sont normales ou anormales.\
-4️⃣ **Accéder aux résultats**\
+4️⃣ **Accéder aux résultats**
 
 ## 🔗 Déploiement en ligne
 Pour déployer sur **Railway** ou **Render**
@@ -104,6 +104,7 @@ Puis connecte ton dépot GitHub sur Railway ou Render
 🌐 GitHub : ncharles11 & \
 
 ⭐️ N'oublie pas de laisser une étoile sur GitHub si ce projet t'a aidé !😉
+# 
 
 # AnomaCheck - Detection of Visual Anomalies 🕵️‍♂️🔍 (English Version)
 AnomaCheck is an applicatiojnweb for the automatic detection of visual anomalies. It allows users to **upload images**, train an AI model and predict whether an image is normal or abnormal\
