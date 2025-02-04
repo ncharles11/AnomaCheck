@@ -15,3 +15,9 @@
 1.3 Organisation du rapport
 
 ## 2. État de l'art 
+2.1. Méthodes de Détection d'Anomalies
+- Explication des approches
+
+2.2. Présentation des modèles IA utilisés
+
+## 3. Cahier des charges
