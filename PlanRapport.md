@@ -21,3 +21,11 @@
 2.2. Présentation des modèles IA utilisés
 
 ## 3. Cahier des charges
+3.1. Expressions des besoins
+- Besoins fonctionnels
+  ✔️ Sélection et entraînement du modèle IA \
+  ✔️ Téléversement et stockage des images \
+  ✔️ Interface utilisateur intuitive \
+- Besoins non fonctionnels
+  ✔️ Optimisation des temps d'inférence \
+  ✔️ Hébergement et accessibilité du site 
