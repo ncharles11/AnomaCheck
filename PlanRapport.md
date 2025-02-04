@@ -22,10 +22,13 @@
 
 ## 3. Cahier des charges
 3.1. Expressions des besoins
-- Besoins fonctionnels
+- Besoins fonctionnels \
   ✔️ Sélection et entraînement du modèle IA \
   ✔️ Téléversement et stockage des images \
   ✔️ Interface utilisateur intuitive \
-- Besoins non fonctionnels
-  ✔️ Optimisation des temps d'inférence \
-  ✔️ Hébergement et accessibilité du site 
+- Besoins non fonctionnels \
+  ✔️ Performance \
+  ✔️ Gestion des fichiers zip \
+
+# 4. Architecture du Système 
+
