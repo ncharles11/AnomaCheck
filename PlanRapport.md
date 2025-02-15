@@ -80,3 +80,4 @@
 ✅ Ajout d'un mode AutoML pour choisir automatiquement le meilleur modèle
 
 ## 8. Bibliographie
+https://www.sciencedirect.com/science/article/pii/S0360835223000694
