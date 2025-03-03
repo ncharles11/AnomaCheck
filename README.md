@@ -107,7 +107,7 @@ Puis connecte ton dépot GitHub sur Railway ou Render
 
 ## 🎤 Contact 
 📧 : charles.ndiaye@isen-ouest.yncrea.fr & mouhamed.dieng@isen-ouest.yncrea.fr \
-🌐 GitHub : ncharles11 & 
+🌐 GitHub : ncharles11 & gabitojr10
 
 ⭐️ N'oublie pas de laisser une étoile sur GitHub si ce projet t'a aidé !😉
 # 
