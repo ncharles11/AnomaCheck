@@ -96,7 +96,7 @@ Accède a http://127.0.0.1:8000/ dans ton navigateur
 3️⃣ **Tester de nouvelles images** et voir si elles sont normales ou anormales.\
 4️⃣ **Accéder aux résultats**
 
-## 🔗 Déploiement en ligne
+## 🔗 Déploiement en ligne (optionnel)
 Pour déployer sur **Railway** ou **Render**
 ```
 pip install gunicorn whitenoise
