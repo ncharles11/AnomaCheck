@@ -11,6 +11,34 @@ AnomaCheck est une application web pour la détection automatique d'anomalies vi
 
 ## 📂 Structure du Projet
 ```
+templates/
+│── auth/  
+│   ├── login.html  
+│   ├── register.html  
+│   ├── forgot_password.html  
+│   ├── forgot_password_done.html  
+│   ├── password_reset_confirm.html  
+│   ├── password_reset_complete.html  
+│   ├── user_logout.html  
+│
+│── emails/
+│   ├── password_reset_email.html  
+│   ├── password_reset_subject.txt  
+│
+│── home/  
+│   ├── base.html  
+│   ├── dashboard.html  
+│   ├── upload_page.html  
+│
+│── includes/  # Pour les composants réutilisables  
+│   ├── navbar.html  
+│   ├── footer.html  
+│
+│── extra/  # (si besoin)  
+│   ├── next_page.html  # Besoin de comprendre son rôle avant de le déplacer définitivement  
+
+```
+```
 AnomaCheck/ 
 │── media/                  # Stockage des images uploadées
 │── static/                # Fichiers statiques (CSS, images)
