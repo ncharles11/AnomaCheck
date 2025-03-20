@@ -1,0 +1,58 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Files - AnomaCheck</title>
+    <link rel="stylesheet" href="{% static 'css/upload_page.css' %}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-dark text-light">
+    <!-- Header -->
+    <header class="navbar navbar-dark bg-dark sticky-top flex-md-nowrap p-0 shadow">
+        <a href="{% url 'dashboard' %}" class="navbar-brand col-md-3 col-lg-2 me-0 px-3 d-flex align-items-center">
+            <img src="{% static 'img/logo_1.png' %}" alt="Logo" class="logo me-2">
+            <span class="app-name">AnomaCheck</span>
+        </a>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container py-5">
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div class="row">
+                <!-- Upload Normal Files -->
+                <div class="col-12 mb-4">
+                    <div class="upload-box bg-secondary p-4 rounded">
+                        <h2 class="text-center mb-3">Télécharger des images normales</h2>
+                        <input type="file" name="normal_files" accept= ".zip,.rar,.7z,.tar.gz,.gz" multiple class="form-control">
+                    </div>
+                </div>
+
+                <!-- Upload Anomalous Files -->
+                <div class="col-12">
+                    <div class="upload-box bg-secondary p-4 rounded">
+                        <h2 class="text-center mb-3">Télécharger des images anormales</h2>
+                        <input type="file" name="anomalous_files" accept= ".zip,.rar,.7z,.tar.gz,.gz" multiple class="form-control">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Error Message -->
+            {% if error %}
+                <div class="alert alert-danger mt-4" role="alert">
+                    {{ error }}
+                </div>
+            {% endif %}
+
+            <!-- Submit Button -->
+            <div class="d-flex justify-content-end mt-4">
+                <button type="submit" class="btn btn-primary">Suivant</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
